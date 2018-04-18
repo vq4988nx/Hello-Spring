@@ -14,6 +14,8 @@ public class HelloApplication {
 
 	@RequestMapping("/")
 	@ResponseBody
+
+	//This is giving the response body for the page when the application is run
 	String home() {
 		return "Hello Spring";
 	}
